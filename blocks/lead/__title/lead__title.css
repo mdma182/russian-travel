@@ -1,0 +1,8 @@
+.lead__title {
+    display: flex;
+    margin: auto;
+    font-family: "Inter";
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+}
