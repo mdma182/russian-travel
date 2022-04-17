@@ -1,0 +1,58 @@
+.cover__title {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  /* or 109% */
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1000;
+  width: 288px;
+  height: 70px;
+  left: calc((100vw - 288px) / 2);
+  color: #ffffff;
+  top: 33px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    width: 560px;
+    height: 152px;
+    left: calc((100vw - 560px) / 2);
+    top: 115px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    width: 560px;
+    height: 152px;
+    left: calc((100vw - 560px) / 2);
+    top: 195px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cover__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    width: 560px;
+    height: 152px;
+    left: calc((100vw - 560px) / 2);
+    top: 245px;
+  }
+}

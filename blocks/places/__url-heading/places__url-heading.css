@@ -1,0 +1,9 @@
+.places__url-heading {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 32px;
+}

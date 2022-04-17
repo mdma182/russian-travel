@@ -1,0 +1,10 @@
+.cover__link {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  transition: opacity 0.3s ease-in-out;
+}
+.cover__link:hover {
+  opacity: 0.8;
+}

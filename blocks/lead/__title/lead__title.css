@@ -1,8 +1,47 @@
 .lead__title {
-    display: flex;
-    margin: auto;
+  display: flex;
+  margin: auto;
+  font-family: "Inter";
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  margin: auto;
+  width: 288px;
+  height: 88px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__title {
     font-family: "Inter";
-    font-size: 40px;
-    line-height: 44px;
-    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    margin: auto;
+    width: 720px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    margin: auto;
+    width: 720px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .lead__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    margin: auto;
+    width: 720px;
+    height: 200px;
+  }
 }

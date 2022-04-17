@@ -1,16 +1,16 @@
-.header__language-link {
-  margin-left: 18px;
+.places__link {
+  display: flex;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   /* identical to box height, or 111% */
-  text-align: right;
+  text-align: left;
   color: #ffffff;
-  text-decoration: none;
+  margin-top: 12px;
   transition: opacity 0.3s ease-in-out;
 }
-.header__language-link:hover {
+.places__link:hover {
   opacity: 0.8;
 }
