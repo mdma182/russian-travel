@@ -1,16 +1,10 @@
 .header__language-link {
-  margin-left: 18px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
-  /* identical to box height, or 111% */
-  text-align: right;
-  color: #ffffff;
-  text-decoration: none;
-  transition: opacity 0.3s ease-in-out;
-}
-.header__language-link:hover {
-  opacity: 0.8;
+    margin-left: 18px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: right;
+    color: #ffffff;
 }
