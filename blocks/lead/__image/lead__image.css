@@ -1,24 +1,27 @@
 .lead__image {
-  margin-top: 40px;
-  background-image: url("../images/lead-polka.jpg");
-  width: 100%;
+    margin-top: 40px;
+    background-image: url("../images/lead-polka.jpg");
+    width: 320px;
 }
+
 @media screen and (min-width: 320px) and (max-width: 1023px) {
-  .lead__image {
-    width: 100%;
-  }
+    .lead__image {
+        width: 100%;
+    }
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .lead__image {
-    margin-left: 48px;
-    margin-right: 48px;
-    width: calc(100% - (2 * 48px));
-  }
+    .lead__image {
+        margin-left: 48px;
+        margin-right: 48px;
+        width: calc(100% - (2 * 48px));
+    }
 }
+
 @media screen and (min-width: 1280px) {
-  .lead__image {
-    margin-left: 148px;
-    margin-right: 148px;
-    width: calc(100% - (2 * 148px));
-  }
+    .lead__image {
+        margin-left: 148px;
+        margin-right: 148px;
+        width: calc(100% - (2 * 148px));
+    }
 }
