@@ -5,13 +5,16 @@
     width: 320px;
     height: 320px;
     position: relative;
+    box-sizing: content-box;
+    align-self: left;
+    justify-items: start;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places__image {
         width: 340px;
         height: 340px;
-        margin-left: 24px;
         margin-top: 0;
     }
 }
@@ -20,7 +23,6 @@
     .places__image {
         width: 440px;
         height: 440px;
-        margin-left: 48px;
         margin-top: 0;
     }
 }
@@ -29,7 +31,6 @@
     .places__image {
         width: 460px;
         height: 460px;
-        margin-left: 148px;
         margin-top: 0;
     }
 }

@@ -1,12 +1,11 @@
 .places__paragraph {
-  display: flex;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
 }
 
 .places__paragraph:nth-last-child(2) {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }

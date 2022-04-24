@@ -1,5 +1,35 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  margin-top: 64px;
+    display: block;
+    flex-direction: column;
+    margin-top: 64px;
+    justify-items: start;
+    align-content: center;
+    justify-content: center;
+    width: 288px;
+    margin-left: 16px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .intro {
+        width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 88px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .intro {
+        width: 690px;
+        margin-left: calc((100vw - 928px) / 2);
+        margin-top: 92px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        width: 690px;
+        margin-left: calc((100vw - 984px) / 2);
+        margin-top: 92px;
+    }
 }
