@@ -1,10 +1,10 @@
 .header__language-link {
-    margin-left: 18px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    text-align: right;
-    color: #ffffff;
+  margin-left: 18px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: right;
+  color: #ffffff;
 }
