@@ -7,4 +7,10 @@
   line-height: 20px;
   text-align: right;
   color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.header__language-link:hover {
+  opacity: 0.8;
 }

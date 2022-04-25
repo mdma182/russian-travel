@@ -6,7 +6,7 @@
   background-size: cover;
   z-index: 0;
   width: 320px;
-  height: 200px;
+  min-height: 200px;
   box-sizing: content-box;
   margin: 66px auto auto auto;
   padding: 0;
