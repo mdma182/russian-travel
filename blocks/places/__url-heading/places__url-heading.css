@@ -1,10 +1,11 @@
 .places__url-heading {
-  display: flex;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  margin-top: 32px;
-  letter-spacing: 2px;
+    display: flex;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
