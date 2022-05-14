@@ -6,6 +6,9 @@
     column-gap: 0;
     row-gap: 12px;
     grid-column: 1 / -1;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 288px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -14,9 +17,9 @@
         grid-template-rows: repeat(12, 1fr);
         column-gap: 0;
         row-gap: 12px;
-        margin-left: 16px;
-        margin-right: 16px;
-        width: calc(100% - (2 * 16px));
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 288px;
     }
 }
 
@@ -27,9 +30,9 @@
         column-gap: 16px;
         row-gap: 16px;
         margin-top: 88px;
-        margin-left: 24px;
-        margin-right: 24px;
-        width: calc(100% - (2 * 24px));
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 720px;
     }
 }
 
@@ -40,9 +43,9 @@
         column-gap: 14px;
         row-gap: 14px;
         margin-top: 92px;
-        margin-left: 48px;
-        margin-right: 48px;
-        width: calc(100% - (2 * 48px));
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 928px;
     }
 }
 
@@ -53,8 +56,6 @@
         column-gap: 16px;
         row-gap: 16px;
         margin: 92px auto 0 auto;
-        margin-left: calc((100vw - 1280px) / 2);
-        margin-right: calc((100vw - 1280px) / 2);
-        max-width: 1280px;
+        max-width: 1184px;
     }
 }
