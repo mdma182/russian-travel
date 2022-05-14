@@ -1,13 +1,10 @@
 .places__image {
-    display: flex;
     margin-top: 32px;
     margin-bottom: 32px;
     width: 320px;
     height: 320px;
     position: relative;
     box-sizing: content-box;
-    align-self: start;
-    justify-items: start;
     object-fit: cover;
 }
 

@@ -1,6 +1,6 @@
 .intro__title {
-    display: flex;
-    font-family: "Inter";
+    margin: 0;
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;

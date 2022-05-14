@@ -15,7 +15,7 @@
     .footer {
         flex-direction: row;
         justify-content: space-between;
-        max-width: 768px;
+        max-width: 720px;
     }
 }
 
@@ -31,8 +31,8 @@
     .footer {
         flex-direction: row;
         justify-content: space-between;
-        max-width: 984px;
-        margin-left: calc((100vw - 984px) / 2);
-        margin-right: calc((100vw - 984px) / 2);
+        max-width: 1184px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
